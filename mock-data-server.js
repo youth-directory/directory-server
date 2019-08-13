@@ -1,4 +1,4 @@
-const mockDataServer = [{
+module.exports.mockDataServer = [{
 surveyee_name: 'Brenda Williams',
 surveyee_title: 'Mrs.',
 surveyee_email: 'surveyor123@gmail.com',
