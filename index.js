@@ -9,6 +9,10 @@ const port = 3000;
 // Create an instance of the http server to handle HTTP requests
 app.use(express.static('../directory-client'));
 
+// import ES client
+const { Client } = require('@elastic/elasticsearch')
+const client = new Client({ node: 'http://localhost:9200' })
+
 app.get('/', (req, res) => {
 
 });
